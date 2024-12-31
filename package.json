@@ -1,23 +1,23 @@
 {
-  "name": "admin-be",
-  "version": "0.1.0",
-  "private": true,
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vue-cli-service serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "@vueform/multiselect": "^2.6.11",
+    "vue": "^2.7.16",
+    "vue-datepicker": "^1.3.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.6.5",
+    "vue-select": "^3.20.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "@vue/cli-service": "^5.0.8"
   }
 }
