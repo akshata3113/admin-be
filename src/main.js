@@ -2,6 +2,9 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import App from "./App.vue";
 import Home from "./components/Home.vue";  // Import the Home component
+import AdminDashboard from './components/views/AdminDashboard.vue'
+import CompanyDashboard from './components/views/CompanyDashboard.vue'
+import PostJob from './components/Company/PostJob.vue'
 
 Vue.use(VueRouter);
 
@@ -10,6 +13,18 @@ const routes = [
   {
     path: "/",
     component: Home,  // Route to the Home component
+  },
+  {
+    path: "/admin",
+    component: AdminDashboard,  
+  },
+  {
+    path: "/company",
+    component: CompanyDashboard,  
+  },
+  {
+    path: "/company/post-job",
+    component: PostJob,
   },
   // You can define more routes here as needed
 ];
